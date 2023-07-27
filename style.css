@@ -15,7 +15,6 @@ body{
     padding: 0;
     display: flex;
     justify-content: center;
-    overflow: hidden;
 }
 
 .instagram-wrapper{
@@ -29,23 +28,21 @@ body{
 .instagram-phone{
     display:flex;
     align-items: center;
-    /* justify-content: start; */
-    /* left:0px; */
     width:60%;
 }
 
 #imgfundo{
     position: relative;
-    bottom:80px;
-    height: 40rem;
+    bottom:40px;
+    height: 35rem;
 }
 
 #imgfrente{
     position: relative;
-    right: 15rem;
-    top:5rem;
+    right: 10rem;
+    top:4rem;
     z-index: 2;
-    height: 40rem;
+    height: 35rem;
 }
 
 .instagram-phone img{
@@ -56,19 +53,22 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
+    
 }
 .slide{
     position: relative;
     z-index: 4;
-    right: 34.2rem;
-    width:17.7rem;
-    height: 529px;
-    border-radius: 20px;  
+    right: 26.7rem;
+    width:365px;
+    height: 465px;
+    border-radius: 0px;  
     background-image: url("./assets/screenshot1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
     animation-name: changescreen;
     animation-duration: 6s;
     animation-iteration-count: infinite;
-    top:4.87rem;
+    top:3.9rem;
 }
 
 
@@ -86,7 +86,7 @@ body{
     justify-content: space-around;
     flex-direction: column;
     width: 50%;
-    /* min-height: 34rem; */
+    min-height: 34rem;
     height: 100%;
 }
 
